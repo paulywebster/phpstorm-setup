@@ -1,0 +1,9 @@
+<toolSet name="External Tools">
+  <tool name="php-cs-fixer" description="A tool to automatically fix PHP coding standars issues (version 1)" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="true" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="docker" />
+      <option name="PARAMETERS" value="exec &quot;zend-server-aws&quot; bash -c &quot;cd /tucanoRed/tools/hooks &amp;&amp; php php-cs-fixer.phar -vv --fixers=-psr0 fix $FilePath$" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+</toolSet>

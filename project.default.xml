@@ -1,0 +1,67 @@
+<application>
+  <component name="ProjectManager">
+    <defaultProject>
+      <component name="ComposerJsonPluginSettings">
+        <unboundedVersionInspectionSettings>
+          <excludedPackages />
+        </unboundedVersionInspectionSettings>
+        <customRepositories />
+        <composerUpdateOptions />
+      </component>
+      <component name="Encoding" addBOMForNewFiles="with NO BOM" />
+      <component name="PhpIncludePathManager">
+        <include_path>
+          <path value="/usr/local/zend/var/libraries/Zend_Framework_1/default" />
+          <path value="/usr/local/zend/var/libraries/Zend_Framework_2/default" />
+        </include_path>
+      </component>
+      <component name="PhpWorkspaceProjectConfiguration" interpreter_name="gitlab.tools.alphanetworks.be/docker/zend:aws">
+        <include_path>
+          <path value="/usr/local/zend/var/libraries/Zend_Framework_1/default" />
+          <path value="/usr/local/zend/var/libraries/Zend_Framework_2/default" />
+        </include_path>
+      </component>
+      <component name="ProjectInspectionProfilesVisibleTreeState">
+        <entry key="Project Default">
+          <profile-state>
+            <expanded-state>
+              <State />
+              <State>
+                <id>PHP</id>
+              </State>
+              <State>
+                <id>Quality toolsPHP</id>
+              </State>
+            </expanded-state>
+            <selected-state>
+              <State>
+                <id>Android</id>
+              </State>
+            </selected-state>
+          </profile-state>
+        </entry>
+      </component>
+      <component name="PropertiesComponent">
+        <property name="last_opened_file_path" value="/usr/local/zend/var/libraries/Zend_Framework_2/default" />
+        <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+        <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+        <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+      </component>
+      <component name="masterDetails">
+        <states>
+          <state key="ProjectJDKs.UI">
+            <settings>
+              <splitter-proportions>
+                <option name="proportions">
+                  <list>
+                    <option value="0.2" />
+                  </list>
+                </option>
+              </splitter-proportions>
+            </settings>
+          </state>
+        </states>
+      </component>
+    </defaultProject>
+  </component>
+</application>

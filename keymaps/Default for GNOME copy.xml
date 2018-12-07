@@ -1,0 +1,33 @@
+<keymap version="1" name="Default for GNOME copy" parent="Default for GNOME">
+  <action id="AddToFavoritesPopup" />
+  <action id="CloseAllEditors">
+    <keyboard-shortcut first-keystroke="shift ctrl w" />
+  </action>
+  <action id="CloseContent">
+    <keyboard-shortcut first-keystroke="ctrl w" />
+  </action>
+  <action id="DecrementWindowHeight" />
+  <action id="EditorDuplicate">
+    <keyboard-shortcut first-keystroke="shift ctrl down" />
+    <keyboard-shortcut first-keystroke="shift ctrl up" />
+  </action>
+  <action id="EditorSelectWord" />
+  <action id="EditorUnSelectWord" />
+  <action id="IncrementWindowHeight" />
+  <action id="MoveLineDown">
+    <keyboard-shortcut first-keystroke="shift alt down" />
+  </action>
+  <action id="MoveLineUp">
+    <keyboard-shortcut first-keystroke="shift alt up" />
+  </action>
+  <action id="MoveStatementDown" />
+  <action id="MoveStatementUp" />
+  <action id="NextOccurence" />
+  <action id="PreviousOccurence" />
+  <action id="ResetColumnsWidth" />
+  <action id="ResizeToolWindowDown" />
+  <action id="ResizeToolWindowUp" />
+  <action id="Tool_External Tools_php-cs-fixer">
+    <keyboard-shortcut first-keystroke="shift alt f" />
+  </action>
+</keymap>

@@ -4,6 +4,7 @@
       <mapping ext="klib" type="ARCHIVE" />
       <mapping pattern=".attach_pid2048" type="PLAIN_TEXT" />
       <mapping pattern=".attach_pid9546" type="PLAIN_TEXT" />
+      <mapping pattern="migrate" type="PLAIN_TEXT" />
       <mapping pattern="test" type="PLAIN_TEXT" />
     </extensionMap>
   </component>

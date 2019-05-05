@@ -1,24 +1,6 @@
 <application>
   <component name="RemoteServers">
-    <remote-server name="Docker PHP7" type="docker">
-      <configuration>
-        <option name="apiUrl" value="unix:///var/run/docker.sock" />
-        <option name="certificatesPath" />
-      </configuration>
-    </remote-server>
-    <remote-server name="Docker PHP5.6" type="docker">
-      <configuration>
-        <option name="apiUrl" value="unix:///var/run/docker.sock" />
-        <option name="certificatesPath" />
-      </configuration>
-    </remote-server>
-    <remote-server name="Docker test" type="docker">
-      <configuration>
-        <option name="apiUrl" value="unix:///var/run/docker.sock" />
-        <option name="certificatesPath" />
-      </configuration>
-    </remote-server>
-    <remote-server name="Docker equibel" type="docker">
+    <remote-server name="Docker server" type="docker">
       <configuration>
         <option name="apiUrl" value="unix:///var/run/docker.sock" />
         <option name="certificatesPath" />

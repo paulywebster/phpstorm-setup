@@ -102,9 +102,7 @@
     <option name="CHECK_DUPLICATE_KEYS" value="true" />
     <option name="CHECK_DUPLICATE_KEYS_WITH_DIFFERENT_VALUES" value="true" />
   </inspection_tool>
-  <inspection_tool class="Duplicates" enabled="true" level="WARNING" enabled_by_default="true">
-    <option name="minCloneLength" value="150" />
-  </inspection_tool>
+  <inspection_tool class="Duplicates" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="DynamicRegexReplaceableByCompiledPattern" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="ELDeferredExpressionsInspection" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="ELMethodSignatureInspection" enabled="false" level="WARNING" enabled_by_default="false" />
@@ -143,7 +141,10 @@
   <inspection_tool class="ExceptionNameDoesntEndWithException" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="ExtendsThrowable" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="FieldMayBeStatic" enabled="true" level="WARNING" enabled_by_default="true" />
-  <inspection_tool class="ForCanBeForeach" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="ForCanBeForeach" enabled="false" level="WARNING" enabled_by_default="false">
+    <option name="REPORT_INDEXED_LOOP" value="true" />
+    <option name="ignoreUntypedCollections" value="false" />
+  </inspection_tool>
   <inspection_tool class="ForgottenDebugOutputInspection" enabled="true" level="ERROR" enabled_by_default="true">
     <option name="configuration">
       <list>
@@ -331,8 +332,8 @@
     </extension>
     <extension name="ClassNamingConvention" enabled="true">
       <option name="m_regex" value="[A-Z][A-Za-z\d]*" />
-      <option name="m_minLength" value="4" />
-      <option name="m_maxLength" value="64" />
+      <option name="m_minLength" value="0" />
+      <option name="m_maxLength" value="0" />
     </extension>
   </inspection_tool>
   <inspection_tool class="NonFinalFieldInEnum" enabled="true" level="WARNING" enabled_by_default="true" />
@@ -353,8 +354,8 @@
   <inspection_tool class="PackageVisibleField" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="ParameterNamingConvention" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="m_regex" value="[a-z][A-Za-z\d]*" />
-    <option name="m_minLength" value="1" />
-    <option name="m_maxLength" value="20" />
+    <option name="m_minLength" value="0" />
+    <option name="m_maxLength" value="0" />
   </inspection_tool>
   <inspection_tool class="ProblematicWhitespace" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="PublicField" enabled="true" level="WARNING" enabled_by_default="true">
